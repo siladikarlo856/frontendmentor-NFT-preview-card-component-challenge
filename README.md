@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/siladikarlo856/frontendmentor-NFT-preview-card-component-challenge](https://github.com/siladikarlo856/frontendmentor-NFT-preview-card-component-challenge)
+- Live Site URL: [ https://siladikarlo856.github.io/frontendmentor-NFT-preview-card-component-challenge/](https://siladikarlo856.github.io/frontendmentor-NFT-preview-card-component-challenge/)
 
 ## My process
 
@@ -48,15 +48,17 @@ Users should be able to:
 ### What I learned
 
 To write more organized CSS I used variables:
+
 ```css
 :root {
   --primary-soft-blue: hsl(215, 51%, 70%);
   --primary-cyan: hsl(178, 100%, 50%);
-  ...
+  ...;
 }
 ```
 
 To position overlay layer over the image the following code was used:
+
 ```css
 .cover-image-overlay {
   background: rgba(0, 255, 247, 0.35);
@@ -66,9 +68,10 @@ To position overlay layer over the image the following code was used:
   transform: translate(-50%, -50%);
   width: 100%;
   height: 100%;
-``` 
+```
 
 To show overlay layer on image hover opacity was used:
+
 ```css
 .img-container:hover .cover-image-overlay {
   opacity: 1;
@@ -77,18 +80,20 @@ To show overlay layer on image hover opacity was used:
 ```
 
 To align svg image with text margin: auto was used:
+
 ```css
 .clock-icon {
   height: var(--pargraph-font-size);
   margin-top: auto;
   margin-bottom: auto;
-  ...
+  ...;
 }
-
 ```
 
 ### Continued development
+
 This project will be developed in several phases:
+
 1. Static page for desktop
 2. On hover effects
 3. Support for small and medium screens
@@ -106,4 +111,5 @@ Next improvement that will be done is to use SCSS to be more organized.
 - Frontend Mentor - [@siladikarlo856](https://www.frontendmentor.io/profile/siladikarlo856)
 
 ## Acknowledgments
+
 CSS tutorials - Kevin Powell Youtube [@kepowob](https://www.youtube.com/kepowob)
